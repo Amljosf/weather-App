@@ -1,7 +1,7 @@
 const searchbtn = document.getElementById("searchbtn");
 const place = document.getElementById("city-name");
 
-const apikey = "c081d07995e344fa89ad0b66ecd79676";
+const apikey = "your key";
 const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&";
 
 async function getWeather(city) {
